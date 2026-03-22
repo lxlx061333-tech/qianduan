@@ -1,5 +1,5 @@
 // src/utils/request.js
-import axios from '@/utils/request';
+import axios from 'axios';
 
 // 自动从环境变量读取API地址，如果没有则用本地地址
 const baseURL = import.meta.env.VITE_API_URL || 'http://localhost:8081'
