@@ -2,7 +2,7 @@
 import axios from '@/utils/request';
 
 // 自动从环境变量读取API地址，如果没有则用本地地址
-const baseURL = import.meta.env.VITE_API_URL || ''
+const baseURL = import.meta.env.VITE_API_URL || 'http://localhost:8081'
 
 // 创建axios实例
 const request = axios.create({
